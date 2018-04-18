@@ -1,0 +1,30 @@
+
+# html lang
+language: en
+
+# main menu navigation
+menu:
+  Home: /
+  Archives: /archives
+  Tags: /tags
+  Github: https://github.com/Qxiaoqi
+
+# Miscelaneous
+favicon: /favicon_qi.ico
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/Graffiti.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/jquery-3.2.1.js
+- /js/graffiti.js
+
+# 导航栏背景
+navigationBar:
+- /img/navigationBar.jpg
+
+# 头像
+portrait:
+- /img/portrait.jpg

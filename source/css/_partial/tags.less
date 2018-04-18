@@ -1,0 +1,66 @@
+//=============tags页面============================
+
+.tags-block {
+
+	.tags-title {
+
+		span {
+			color: @title-color;
+			font-size: 20px;
+		}
+	}
+
+	.tags-list {
+
+		.tag-list {
+
+			// margin: 0;
+			padding: 0;
+			margin: 20px 0 20px 0;
+
+			.tag-list-item {
+				// position: relative;
+
+				&:nth-of-type(5n+5) {
+					padding-right: 0;
+				}
+
+				padding: 0 25px 20px 0;
+
+				width: 20%;
+				height: 108px;
+				display: inline-block;
+				list-style: none;
+
+				.tag-list-link {
+
+					display: block;
+					width: 100%;
+					height: 88px;
+					text-align: center;
+					line-height: 88px;
+					font-size: 20px;
+					border-radius: 4px;
+					background-color: #ffffff;
+					color: #666;
+					text-decoration: none;
+					transition: all .2s ease-out;
+
+					&:hover {
+						color: #FCD133;
+						box-shadow: 0 6px 16px 0 #d6e0e8;
+					}
+				}
+
+				/*.tag-list-count {
+					position: absolute;
+					right: 25px;
+					bottom: 20px;
+				}*/
+			}	
+		}
+		
+	}
+}
+
+

@@ -1,0 +1,20 @@
+
+<div id="tag" class="tag">
+  <span class="tag-title"><%= page.tag %></span>
+  <div class="tag-block">
+  <% page.posts.each(function(article) { %>
+    <div class="tag-item-padding">
+      <div class="tag-item"> 
+        <a href="<%=url_for(article.path)%>" class="tag-item-a">
+          <%= article.title %>
+        </a>
+        <time datetime="<%=date_xml(article.date)%>" class="tag-item-datetime">
+          <%=date(article.date)%>
+        </time>
+      </div> 
+    </div>
+  <% }); %>
+  </div>
+</div>
+
+<%- partial('_partial/paginator') %>

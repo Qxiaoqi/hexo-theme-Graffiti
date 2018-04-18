@@ -1,0 +1,25 @@
+<!-- 主页最近文章显示模板 -->
+<section class="posts">
+  <% page.posts.each(function (post) { %>
+    <article class="post">
+      <!-- <div class="post-decoration"></div> -->
+      <div class="post-title">
+        <a class="post-title-link" href="<%- url_for(post.path) %>"><%= post.title %></a>
+      </div>
+      <div class="post-content">
+        <%- post.excerpt %>
+      </div>
+      <!-- tag和time -->
+      <div class="post-meta">
+        <span class="post-time"><%- date(post.date, "YYYY-MM-DD") %></span>
+        <div class="post-tags">
+          <%- partial('post/tag', {
+            post: post
+          })%>
+        </div>
+      </div>
+    </article>
+  <% }) %>
+</section>
+
+

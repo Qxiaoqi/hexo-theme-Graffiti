@@ -1,0 +1,22 @@
+<!-- 导航栏部分 -->
+<div id="navigationBar-bg" class="navigationBar-bg" style="background: url('<%=theme.navigationBar%>') no-repeat;">
+  <div id="navigationBar-content" class="navigationBar-content">
+    <div class="personal-block">
+      <div class="portrait">
+        <div class="portrait-background">
+          <div class="portrait-img" style="background: url('<%=theme.portrait%>') no-repeat; background-size: 100%"></div>
+        </div>
+      </div>
+      <div class="nickname"><span><%=config.title%></span></div>
+    </div>
+
+    <div class="navigationBar-menu">
+      <% Object.keys(theme.menu).forEach(function(key) { %>
+        <li>
+          <div class="menu-hover <%-key%>-hover"></div>
+          <a id="<%=key%>" href="<%=theme.menu[key]%>"><%=key%></a>
+        </li>
+      <% }); %>
+    </div>
+  </div>
+</div>

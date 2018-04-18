@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="<%=config.language%>">
+<head>
+  <meta charset="UTF-8">
+  <title><%=config.title%></title>
+<!--   <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet"> -->
+  <!-- theme为主题的config.yml -->
+  <% if (theme.stylesheets !== undefined && theme.stylesheets.length > 0) { %>
+    <!-- stylesheets list from config.yml -->
+    <% theme.stylesheets.forEach(function(url) { %>
+      <link rel="stylesheet" href="<%=url%>">
+    <% }); %>
+  <% } %>
+</head>

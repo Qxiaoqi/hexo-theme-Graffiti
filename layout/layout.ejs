@@ -1,0 +1,21 @@
+<%- partial('_partial/head') %>
+<body>
+
+<!-- 导航栏 -->
+<%- partial('_partial/navigationBar.ejs')%>
+
+<!-- layout渲染部分 -->
+<div id="content-outer" class="content-outer">
+  <div class="content-margin">
+    <div id="content-inner" class="content-inner">
+      <%- body %>
+    </div>
+
+    <!-- footer部分 -->
+    <%- partial('_partial/footer') %>
+  </div>
+
+</div>
+
+
+<%- partial('_partial/foot.ejs') %>

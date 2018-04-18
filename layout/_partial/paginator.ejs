@@ -1,0 +1,11 @@
+<!-- 分页模板 -->
+<% if (page.total > 1){ %>
+  <nav class="page-nav">
+  	<div class="page-nav-inner">
+  		<%- paginator({
+	      prev_text: "&laquo; Prev",
+	      next_text: "Next &raquo;"
+	    }) %>
+  	</div>
+  </nav>
+<% } %>

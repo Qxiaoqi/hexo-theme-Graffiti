@@ -1,0 +1,69 @@
+@blog-background: #f1f5f8;
+@font-color: #909090;
+@portrait-background: #eaeaea;
+@decoration-color: #EEEEEE;
+@title-color: #777;
+@post-title-color: #606060;
+@h-color: #5A5A5A;
+
+@font-face {
+	font-family: navfont;
+	src: url('fonts/Yank.ttf');
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+  	margin: 0;
+  	height: 100%;
+  	background-color: @blog-background;
+  	font-family: lucida grande,lucida sans unicode,lucida,helvetica,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+}
+
+h1 {
+	color:@h-color;
+}
+
+h2 {
+	color: @h-color;
+	// font-weight: 400;
+	// border-bottom: 1px solid @decoration-color;
+	// padding-bottom: 10px;
+}
+
+h3 {
+	color:@h-color;
+}
+
+h4 {
+	color:@h-color;
+}
+
+h5 {
+	color:@h-color;
+}
+
+img {
+	max-width: 100%;
+}
+
+//============引入外部less文件模板========================
+
+@import "_partial/navigationBar.less";
+@import "_partial/content-outer.less";
+@import "_partial/recent-posts.less";
+@import "_partial/article-tag.less";
+@import "_partial/footer.less";
+@import "_partial/paginator.less";
+@import "_partial/highlight.less";
+@import "_partial/archives.less";
+@import "_partial/tags.less";
+@import "_partial/tag.less";
+
+//============分模板前测试===========================
+
+
+

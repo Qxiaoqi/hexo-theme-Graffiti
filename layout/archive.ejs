@@ -1,0 +1,36 @@
+<div class="archives-block">
+<div class="achives-margin-left">
+
+<% var last; %>
+<% page.posts.each(function(article) { %>
+  <% var year = article.date.year(); %>
+
+  <% if (last != year) { -%>
+    <% if (last != null) { -%>
+      </div></section>
+    <% } -%>
+    <% last = year; %>
+      
+    <section class="archives-wrap">
+      <div class="archives-year-wrap">
+        <a href="<% url_for('archives/' + year ) %>" class="archives-year"><%= year %></a>
+      </div>
+      <div class="archives">
+
+        <% } %>
+          <!-- 时间归档模板部分 -->
+          <div class="archives-item">
+            <span class="archives-item-time"><%= date(article.date,'M-D') %></span>
+            <a href="<%= url_for(article.path)%>"><%= article.title %></a>
+          </div>
+      
+<% }); %>
+
+    </div>
+    </section>
+</div>
+</div>
+
+
+
+<%- partial('_partial/paginator') %>

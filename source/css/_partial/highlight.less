@@ -1,0 +1,123 @@
+@cyan-green: #008080;
+@deep-blue: #000080;
+@dark-red: #d14;
+@gray: #998;
+@cyan: #0086b3;
+
+
+
+//文章页面markdown渲染部分样式
+
+.post {
+
+    // 代码段
+    .highlight {
+        margin: 0;
+
+        border-radius: 4px;
+        background-color: #F3F3F3;
+
+
+        .gutter {
+            padding: 0 20px 0 15px;
+            color: @font-color;
+
+            pre {
+                line-height: 22.4px;
+            }
+        }
+
+        .code {
+
+            // font-family: "Source Code Pro",Consolas,Menlo,Monaco,"Courier New",monospace;
+
+            pre {
+
+                line-height: 22.4px;
+                font-size: 14px;
+
+                span {
+
+                    // white-space:normal;    //自动换行
+                    white-space: pre-wrap;      //保留空格，自动换行，代码缩进功能
+                }
+            }
+        }
+    }
+
+
+    // 引用
+    blockquote {
+        margin: 0;
+        padding: 20px;
+
+        // border-radius: 4px;
+        background-color: #F6F6F6;
+        border-left: 4px solid @font-color;
+        font-size: 14px;
+
+        ol {
+            padding: 0 18px;
+        }
+    }
+
+    // 小的代码块
+    code {
+        padding: 5px;
+
+        font-size: 14px;
+        background-color: #F9F2F4;
+
+    }
+}
+
+
+
+
+//================代码高亮=======================
+
+// 注释
+.comment {
+    color: @gray;
+}
+
+.keyword {
+    font-weight: 700;
+}
+
+.built_in {
+    color: @cyan;
+}
+
+.string {
+    color: @dark-red;
+}
+
+.function {
+    color: @cyan-green;
+}
+
+.attr {
+    color: @cyan-green;
+}
+
+.name {
+    color: @deep-blue;
+}
+
+.tag {
+    color: @deep-blue;
+}
+
+.selector-class {
+    color: @deep-blue;
+    font-weight: 700;
+}
+
+.attribute {
+    color: @deep-blue; 
+}
+
+.number {
+    color: @cyan-green;
+}
