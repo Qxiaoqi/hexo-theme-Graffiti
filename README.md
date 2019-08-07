@@ -1,6 +1,6 @@
 # hexo-theme-Graffiti
 
-Graffiti是使用hexo制作的博客，由于一些原因，github Pages上的加载速度会比较慢，所以我又在码云上部署了一份个人博客，速度快多了，你可以点击[我的博客](http://qxiaoqi.gitee.io/)查看效果
+Graffiti是使用hexo制作的博客，你可以点击[我的博客](https://qxiaoqi.github.io/)查看效果
 
 **关于主题**
 
