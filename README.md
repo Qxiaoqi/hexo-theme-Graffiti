@@ -11,7 +11,7 @@ Graffiti是早期使用hexo制作的博客主题，现在看起来有点丑陋�
 <!-- ![hexo-theme-Graffiti-img](https://file-1305436646.cos.ap-nanjing.myqcloud.com/github-img/hexo-theme-Graffiti-2.png) -->
 
 ### 标签
-<!-- ![hexo-theme-Graffiti-img](https://file-1305436646.cos.ap-nanjing.myqcloud.com/github-img/hexo-theme-Graffiti-3.png) -->
+![hexo-theme-Graffiti-img](https://file-1305436646.cos.ap-nanjing.myqcloud.com/github-img/hexo-theme-Graffiti-3.png)
 
 ## 主题_config.yml配置
 
