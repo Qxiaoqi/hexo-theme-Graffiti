@@ -3,17 +3,15 @@
 Graffiti是早期使用hexo制作的博客主题，现在看起来有点丑陋，我的博客主题已经换掉了
 
 ### 首页
-<img src="https://file-1305436646.cos.ap-nanjing.myqcloud.com/github-img/hexo-theme-Graffiti-1.png">
+<!-- <img src="https://file-1305436646.cos.ap-nanjing.myqcloud.com/github-img/hexo-theme-Graffiti-1.png"> -->
 
 <!-- ![hexo-theme-Graffiti-img](https://file-1305436646.cos.ap-nanjing.myqcloud.com/github-img/hexo-theme-Graffiti-1.png) -->
 
 ### 归档
-<img src="https://file-1305436646.cos.ap-nanjing.myqcloud.com/github-img/hexo-theme-Graffiti-2.png">
-<!-- ![hexo-theme-Graffiti-img](https://file-1305436646.cos.ap-nanjing.myqcloud.com/github-img/hexo-theme-Graffiti-2.png) -->
+![hexo-theme-Graffiti-img](https://file-1305436646.cos.ap-nanjing.myqcloud.com/github-img/hexo-theme-Graffiti-2.png)
 
 ### 标签
-<img src="https://file-1305436646.cos.ap-nanjing.myqcloud.com/github-img/hexo-theme-Graffiti-3.png">
-<!-- ![hexo-theme-Graffiti-img](https://file-1305436646.cos.ap-nanjing.myqcloud.com/github-img/hexo-theme-Graffiti-3.png) -->
+![hexo-theme-Graffiti-img](https://file-1305436646.cos.ap-nanjing.myqcloud.com/github-img/hexo-theme-Graffiti-3.png)
 
 ## 主题_config.yml配置
 
